@@ -4,9 +4,9 @@
         <!--begin::Brand-->
         <div class="aside-logo flex-column-auto" id="kt_aside_logo">
             <!--begin::Logo-->
-            <a href="../../demo1/dist/index.html">
+            <router-link to="/">
                 <img alt="Logo" src="assets/media/logos/logo-1-dark.svg" class="h-25px logo" />
-            </a>
+            </router-link>
             <!--end::Logo-->
             <!--begin::Aside toggler-->
             <div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="aside-minimize">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="menu-item">
-                        <a class="menu-link active" href="../../demo1/dist/index.html">
+                        <router-link class="menu-link active" to="/">
                             <span class="menu-icon">
                                 <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
                                 <span class="svg-icon svg-icon-2">
@@ -48,10 +48,10 @@
                                 <!--end::Svg Icon-->
                             </span>
                             <span class="menu-title">Default</span>
-                        </a>
+                        </router-link>
                     </div>
                     <div class="menu-item">
-                        <a class="menu-link" href="../../demo1/dist/dashboards/no-toolbar.html">
+                        <router-link class="menu-link" to="/profile">
                             <span class="menu-icon">
                                 <!--begin::Svg Icon | path: icons/duotune/art/art002.svg-->
                                 <span class="svg-icon svg-icon-2">
@@ -63,7 +63,7 @@
                                 <!--end::Svg Icon-->
                             </span>
                             <span class="menu-title">No Toolbar</span>
-                        </a>
+                        </router-link>
                     </div>
                     <div class="menu-item">
                         <div class="menu-content pt-8 pb-0">
