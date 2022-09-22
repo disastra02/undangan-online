@@ -27,7 +27,5 @@ window.KTToggle = require('../assets/js/components/toggle');
 
 // Layout base js
 window.KTApp = require('../assets/js/layout/app');
-window.KTLayoutAside = require('../assets/js/layout/aside');
 window.KTLayoutExplore = require('../assets/js/layout/explore');
 window.KTLayoutSearch = require('../assets/js/layout/search');
-window.KTLayoutToolbar = require('../assets/js/layout/toolbar');

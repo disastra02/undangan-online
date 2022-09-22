@@ -1,0 +1,55 @@
+/* Header */
+.header {
+    background-color: #242731 !important;
+}
+/* End */
+
+/* Aside */
+.aside {
+    background-color: #242731 !important;
+    border-right: 1px solid #4c4c4c;
+}
+
+.card {
+    background-color: #242731 !important;
+    border-radius: 24px;
+    box-shadow: 0 0 80px rgb(0 0 0 / 20%) !important;
+}
+
+.card .card-header .card-title, .card .card-header .card-title .card-label {
+    color: #FFF !important;
+}
+
+.card .card-header {
+    padding: 0 3rem;
+}
+
+.card .card-body {
+    padding: 2rem 3rem;
+}
+
+.text-dark {
+    color: #FFF !important;
+}
+
+.text-gray-800 {
+    color: #FFF !important;
+}
+/* End */
+
+/* Content */
+.content {
+    background-color: #242731 !important;
+}
+
+.bg-primary {
+    background-color: #6C5DD3 !important;
+}
+/* End */
+
+/* Footer */
+.footer {
+    background-color: #242731 !important;
+}
+/* End */
+
